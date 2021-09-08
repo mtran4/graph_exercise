@@ -35,7 +35,9 @@ head(USArrests)
 
 # Select aes
 ```{r}
-
+library(tidyverse)
+library(ggplot2)
+ggplot2(USArrests, aes(x = state, y = assault))
 ```
 
 
